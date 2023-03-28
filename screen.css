@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+#neon {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    background-color: cyan;
+}
+
+#neon:hover {
+    box-shadow: 0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px cyan, 0 0 200px cyan;
+}
+
 /* Body */
 body {
     font-family: 'Playfair Display', serif;
@@ -422,7 +431,8 @@ body {
     cursor: pointer;
     overflow: hidden;
 }
-.alpha img{
+
+.alpha img {
     border-radius: 11px;
 }
 
@@ -480,12 +490,14 @@ body {
     transition-delay: 0s;
     transition-duration: 0.4s;
 }
+
 .beta .content .text {
     height: 0;
     opacity: 1;
     transition-delay: 0s;
     transition-duration: 0.4s;
 }
+
 .gamma .content .text {
     height: 0;
     opacity: 1;
@@ -498,11 +510,13 @@ body {
     transform: translateY(250px);
     -webkit-transform: translateY(250px);
 }
+
 .beta .content:hover .text {
     opacity: 1;
     transform: translateY(250px);
     -webkit-transform: translateY(250px);
 }
+
 .gamma .content:hover .text {
     opacity: 1;
     transform: translateY(400px);
